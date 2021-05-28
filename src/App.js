@@ -20,7 +20,7 @@ function App() {
 
   useEffect(() => {
     VanillaTilt.init(tilt.current, options);
-  }, []);
+  });
 
   const AnyClick = (val) => {
     if (val.val !== "=") {
